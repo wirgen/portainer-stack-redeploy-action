@@ -1,6 +1,8 @@
 name: Portainer Stack Redeploy
 author: Dzianis Nikifaraŭ
 description: Action for request to Portainer API for redeploy stack with pull latest images
+icon: refresh-ccw
+color: blue
 
 inputs:
   portainerUrl:
