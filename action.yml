@@ -1,0 +1,22 @@
+name: Portainer Stack Redeploy
+author: Dzianis Nikifaraŭ
+description: Action for request to Portainer API for redeploy stack with pull latest images
+
+inputs:
+  portainerUrl:
+    description: 'Portainer URL'
+    required: true
+  accessToken:
+    description: 'Portainer access token'
+    required: true
+  stackId:
+    description: 'Stack ID'
+    required: true
+  endpointId:
+    description: 'Endpoint ID. Needed if used remote agent'
+    required: false
+    default: ''
+
+runs:
+  using: 'node16'
+  main: 'index.js'

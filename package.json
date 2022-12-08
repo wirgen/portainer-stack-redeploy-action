@@ -1,0 +1,24 @@
+{
+  "name": "portainer-stack-redeploy-action",
+  "version": "1.0.0",
+  "description": "Action for request to Portainer API for redeploy stack with pull latest images",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "ncc build index.js --license licenses.txt"
+  },
+  "keywords": [
+    "Github actions",
+    "Portainer"
+  ],
+  "author": {
+    "name": "Dzianis Nikifaraŭ",
+    "email": "dzianis@wirgen.by"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@vercel/ncc": "^0.36.0"
+  }
+}
