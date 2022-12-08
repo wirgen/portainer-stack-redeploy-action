@@ -2846,6 +2846,7 @@ if (portainerUrl.substring(portainerUrl.length - 1) === "/") {
 }
 
 core.setSecret(portainerUrl)
+core.setSecret(accessToken)
 
 client.get(`${portainerUrl}/api/stacks/${stackId}/file`, {
   headers: {
