@@ -13,7 +13,7 @@ inputs:
     description: 'Stack ID'
     required: true
   endpointId:
-    description: 'Endpoint ID. Needed if used remote agent'
+    description: 'Endpoint ID'
     required: false
     default: ''
 
